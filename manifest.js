@@ -17,6 +17,7 @@ const Manifest = ({
     }),
     createElement('link', {
     rel: "manifest",
+    crossorigin: "use-credentials",
     href: href
   })]
 
